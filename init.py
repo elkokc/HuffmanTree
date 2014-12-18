@@ -16,7 +16,7 @@ g.es['label'] = huffman.es
 g.vs[2] = "1"
 
 
-plot(g,"Englis3.png",layout = g.layout_reingold_tilford(root=0),vertex_label_angle=140 ,vertex_label_dist = 1,color="green",vertex_color="blue",bbox = (2000, 2000), margin = 20)
+plot(g,layout = g.layout_reingold_tilford(root=0),vertex_label_angle=140 ,vertex_label_dist = 1,color="green",vertex_color="blue",bbox = (2000, 2000), margin = 20)
 
 
 root = Tk()
