@@ -1,7 +1,7 @@
 # coding=utf-8
 from Tkinter import *
 from igraph import *
-import huffman
+import HuffmanTreeAlgorithm
 
 g = Graph()
 
